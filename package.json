@@ -195,9 +195,6 @@
       "target": [
         {
           "target": "AppImage",
-          "toolsets": {
-            "appimage": "1.0.2"
-          },
           "arch": [
             "x64",
             "arm64"
@@ -225,6 +222,9 @@
     },
     "deb": {
       "packageName": "odx-launcher"
+    },
+    "toolsets": {
+      "appimage": "1.0.2"
     },
     "nsis": {
       "oneClick": true,
